@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ebea5f2369dae0488519ee33f63d1ab, type: 3}
+  m_Name: maze
+  m_EditorClassIdentifier: 
+  storyText: "You decide to go into corn maze\n\n\t1: Use map\r\n\t2: Guess you way
+    through  \r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 3ca395f50b53ab443ab775f352255f32, type: 2}
+  - {fileID: 11400000, guid: 346bb12de42504042a289b9c8428df48, type: 2}

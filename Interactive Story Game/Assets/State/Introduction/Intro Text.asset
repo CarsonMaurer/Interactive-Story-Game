@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ebea5f2369dae0488519ee33f63d1ab, type: 3}
+  m_Name: Intro Text
+  m_EditorClassIdentifier: 
+  storyText: "You Are walking up to the door on the haunted Mansion you know their
+    is a ghost. What will you do?\n\n\t1: Explore first floor\r\n\t2: Go up stairs
+    on the left \r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 75380503bc1d79a48883d75db5fe3f44, type: 2}
+  - {fileID: 11400000, guid: e595b47e3395ec34f87fac25ba19a122, type: 2}

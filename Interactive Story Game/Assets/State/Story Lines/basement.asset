@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ebea5f2369dae0488519ee33f63d1ab, type: 3}
+  m_Name: basement
+  m_EditorClassIdentifier: 
+  storyText: " You go to basement \r\n\n\t1: Grab map of property\r\n\t2: Hide in
+    a corner\n"
+  nextStates:
+  - {fileID: 11400000, guid: 66776480faa717c4e9a9d12d6cbf9ddc, type: 2}
+  - {fileID: 11400000, guid: a868dab0f28ed0448bcf0c79f4a249b3, type: 2}

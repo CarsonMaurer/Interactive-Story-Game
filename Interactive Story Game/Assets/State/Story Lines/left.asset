@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ebea5f2369dae0488519ee33f63d1ab, type: 3}
+  m_Name: left
+  m_EditorClassIdentifier: 
+  storyText: "You take a left turn you end up at end of maze. What will you do.\n\n\t1.
+    Climb over wall \n\t2.  Try and pick door lock"
+  nextStates:
+  - {fileID: 11400000, guid: 8ad6f059f5d02b548a266cd43c0b856c, type: 2}
+  - {fileID: 11400000, guid: 7a40c00359f8c12498178fe0c9ccc875, type: 2}

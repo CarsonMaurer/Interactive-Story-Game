@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ebea5f2369dae0488519ee33f63d1ab, type: 3}
+  m_Name: side door
+  m_EditorClassIdentifier: 
+  storyText: "Head out side door\n\n\t1: Make a run for it  \r\n\t2: Wait for ghost
+    to leave\n"
+  nextStates:
+  - {fileID: 11400000, guid: 21e236849efb79c4482b7dc35b778be9, type: 2}
+  - {fileID: 11400000, guid: a8349d05bb3f74e4ab0830d0f249586b, type: 2}

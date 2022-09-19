@@ -5,8 +5,8 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "State")]
 public class State : ScriptableObject 
 {
-        [TextArea(10,14)] [Serializefield] string storyText;
-        [Serializefield] State[] nextState;
+        [TextArea(10,14)] [SerializeField] string storyText;
+        [SerializeField] State[] nextStates;
 
         public string GetStateStory()
         {

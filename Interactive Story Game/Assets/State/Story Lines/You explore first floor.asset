@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ebea5f2369dae0488519ee33f63d1ab, type: 3}
+  m_Name: You explore first floor
+  m_EditorClassIdentifier: 
+  storyText: " You decided to explore first floor \r\n\n\t1: Grab flash light\r\n\t2:
+    Try and escape through door\n"
+  nextStates:
+  - {fileID: 11400000, guid: 3fed976057f12f64ba664b3e504cf720, type: 2}
+  - {fileID: 11400000, guid: 0181085bc9e2cfe489a954eaf6c3ba06, type: 2}
